@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Putri Rara Ramadani</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #88c999, #d2b48c); /* hijau + coksu */
+            color: #333;
+        }
+
+        /* Teks berjalan di atas */
+        marquee {
+            font-size: 26px;
+            font-weight: bold;
+            color: pink;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 12px 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        /* Efek galaxy pada font */
+        .galaxy-text {
+            font-size: 38px;
+            font-weight: 800;
+            background: linear-gradient(90deg, #ff00cc, #3333ff, #00ffff, #ff66ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 400% 400%;
+            animation: galaxyMove 8s infinite linear;
+        }
+
+        @keyframes galaxyMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .biodata {
+            max-width: 650px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.25);
+        }
+
+        .biodata h2 {
+            text-align: center;
+            color: #2f4f4f;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .biodata p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin: 10px 0;
+        }
+
+        .ig-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .ig-link a {
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(90deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .ig-link a:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Teks berjalan -->
+    <marquee behavior="scroll" direction="left">✨ Selamat Datang Di Website Rara 👋🏻 ✨</marquee>
+
+    <!-- Judul Galaxy -->
+    <header>
+        <h1 class="galaxy-text">🌸 Biodata Diri 🌸</h1>
+    </header>
+
+    <!-- Biodata -->
+    <section class="biodata">
+        <h2>Putri Rara Ramadani</h2>
+        <p><strong>Kelas:</strong> XI.7</p>
+        <p><strong>Hobi:</strong> Menyanyi 🎤</p>
+        <p>
+            Saya sangat menyukai dunia musik, terutama menyanyi. 
+            Melalui lagu, saya dapat mengekspresikan perasaan dan membuat suasana hati menjadi lebih bahagia. 
+            Hobi menyanyi juga membantu saya melatih suara agar lebih merdu dan meningkatkan rasa percaya diri saat tampil di depan banyak orang.
+        </p>
+        <p><strong>Cita-cita:</strong> Jaksa ⚖️</p>
+        <p>Saya ingin menjadi jaksa agar dapat menegakkan hukum dan keadilan di negara ini.</p>
+        <p><strong>Warna Favorit:</strong> Hijau 💚 dan Coksu 🤎</p>
+
+        <!-- Link Instagram -->
+        <div class="ig-link">
+            <a href="https://www.instagram.com/ramadaniputrirara?igsh=MXFjODZiamhvNWx2MQ==" target="_blank">
+                🌐 Kunjungi Instagram Saya
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 | Website Biodata Putri Rara Ramadani 💫
+    </footer>
+
+</body>
+</html>
